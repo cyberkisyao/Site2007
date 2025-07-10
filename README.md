@@ -7,10 +7,10 @@ Glitter, GIFs and the cozy nostalgic vibe of o_Old websites.
 
 ### TODO:
 
-=> New info blocks (comments, gallety, etc)
-=> New pages (registration, authorization, rooms, ect)
-=> Customization (frames, backgrounds, themes, etc)
-=> Convert to Django project + connect database
+- New info blocks (comments, gallety, etc)
+- New pages (registration, authorization, rooms, ect)
+- Customization (frames, backgrounds, themes, etc)
+- Convert to Django project + connect database
 
 =(^_^)=
 
@@ -22,9 +22,9 @@ Glitter, GIFs and the cozy nostalgic vibe of o_Old websites.
 
 ## TODO:
 
-=> Новые инфоблоки (комменты, галерея и т.д.)
-=> Новые страницы (регистрация, авторизация, комнаты и т.д.)
-=> Кастомизация (рамки, фоны, темы и т.д.)
-=> Перевод проекта на Django + подключение базы данных
+- Новые инфоблоки (комменты, галерея и т.д.)
+- Новые страницы (регистрация, авторизация, комнаты и т.д.)
+- Кастомизация (рамки, фоны, темы и т.д.)
+- Перевод проекта на Django + подключение базы данных
 
 =(o_<)=
