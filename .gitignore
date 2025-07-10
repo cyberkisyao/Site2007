@@ -1,0 +1,13 @@
+static/style/*.css
+static/style/*.css.map
+
+static/bs/
+
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
