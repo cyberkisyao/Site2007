@@ -1,0 +1,74 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Профиль</title>
+
+    <link rel="stylesheet" href="{%static 'bs/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{%static 'style/style.css' %}">
+</head>
+<body>
+
+<!-- HEADER TEMPLATE -->
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav>
+                    <div class="buttons">
+                        <a href="">Чат</a>
+                        <a href="">Галерея</a>
+                        <a href="">Игры</a>
+                    </div>
+
+                    <div class="search-button-h">
+                        <input type="text" placeholder="Красивые гифки...">
+                        <button>Искать</button>
+                    </div>
+
+                    <div class="enter-button-h">
+                        <a href="">Вход</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="run-message">
+    <span><b>user:</b> сообщение</span>
+</div>
+<!-- HEADER TEMPLATE -->
+
+{% block content %}
+
+{% endblock %}
+
+<!-- FOOTER TEMPLATE -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+            <a href="">О сайте</a>
+            </div>
+            <div class="col-4">
+            <a href="">Контакты</a>
+            </div>
+            <div class="col-4">
+            <a href="">Поддержка</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p>Все права под угрозой</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- FOOTER TEMPLATE -->
+    
+</body>
+</html>

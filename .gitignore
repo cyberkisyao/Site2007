@@ -3,6 +3,9 @@ static/style/*.css.map
 
 static/bs/
 
+*.css.map
+*.scssc
+
 *.log
 *.tmp
 *.swp
@@ -11,3 +14,40 @@ Thumbs.db
 
 .vscode/
 .idea/
+
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+
+*.pot
+*.pyc
+db.sqlite3
+media/
+*.py~ 
+
+venv/
+env/
+
+.vscode/
+
+.DS_Store
+
+
+node_modules/
+package-lock.json
+
+Thumbs.db
+
+*.orig
+
+staticfiles/
+
+*.sublime-workspace
+*.sublime-project
+
+*/migrations/__pycache__/
+*/migrations/*.pyc
+*/migrations/*.py~ 
+
+

@@ -1,50 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+{% extends 'root.html' %}
+{% load static %}
 
-    <link rel="stylesheet" href="static/bs/bootstrap.min.css">
-    <link rel="stylesheet" href="static/style/style.css">
-</head>
-<body>
+{% block title %}Профиль{% endblock %}
 
-<!-- HEADER TEMPLATE -->
-
-<header>
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <nav>
-                    <div class="buttons">
-                        <a href="">Чат</a>
-                        <a href="">Галерея</a>
-                        <a href="">Игры</a>
-                    </div>
-
-                    <div class="search-button-h">
-                        <input type="text" placeholder="Красивые гифки...">
-                        <button>Искать</button>
-                    </div>
-
-                    <div class="enter-button-h">
-                        <a href="">Вход</a>
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </div>
-</header>
-
-<div class="run-message">
-    <span><b>user:</b> сообщение</span>
-</div>
-
-<!-- HEADER TEMPLATE -->
-
-<!-- PROFILE -->
-
+{% block content %}
 <main>
     <div class="container">
         <div class="row">
@@ -65,15 +24,14 @@
 
             <div class="col-8">
                 <div class="right-side">
+
                     <div class="descript">
                         <p class="descript-head">Профиль пользователя <b>user</b></p>
                         <div class="row">
 
                             <div class="col-6">
                                 <p class="descript-desc">Описание</p>
-                                <p class="descript-desc-text">
-
-                                </p>
+                                <p class="descript-desc-text"></p>
                             </div>
                             <div class="col-6">
                                 <p class="descript-desc">Статистика</p>
@@ -100,49 +58,23 @@
                         <p class="music-head">Сейчас играет</p>
                         <div class="music-run">
                             <div class="music-anim">
-                                <img src="../page/static/pic/default_pics/default_singer.png" alt="singer">
+                                <img src="{% static 'pic/default_pics/default_singer.png' %}" alt="singer">
                                 <p><b>Исполнитель</b> - Песня</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="gallery-space">
-                        <div class="gallery-head">
-                            <p>Галерея</p>
-                        </div>                        
+                        <p class="gallery-head">Галерея</p>
+                        <div class="gallery-pics-space">
+                            <img src="" alt="">
+                            <img src="" alt="">
+                            <img src="" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </main>
-
-<!-- PROFILE -->
-
-<!-- FOOTER TEMPLATE -->
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-4">
-            <a href="">О сайте</a>
-            </div>
-            <div class="col-4">
-            <a href="">Контакты</a>
-            </div>
-            <div class="col-4">
-            <a href="">Поддержка</a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <p>Все права под угрозой</p>
-            </div>
-        </div>
-    </div>
-</footer>
-<!-- FOOTER TEMPLATE -->
-
-
-    
-</body>
-</html>
+{% endblock %}
